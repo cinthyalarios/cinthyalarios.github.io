@@ -1,0 +1,51 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: sandybrown;
+  text-decoration-color: white;
+}
+h1 {
+  color: white;
+  text-align: center;
+  font-family: inherit;
+}
+p {
+  text-align: center;
+ 
+}
+ 
+}
+nav {
+  background-color: black;
+  color: white;
+}
+
+a {
+  color: cyan;
+  text-decoration: none;
+}
+
+li {
+  display: inline;
+}
+img {
+  border-radius: 100%;
+  align-content: center;
+}
+a {
+  display: inline-block;
+  padding: 10px 5px 5px;
+  font-size: 20px;
+  background-color: black;
+  color: coral;
+  border-radius: 20px;
+  border: 1px solid black;
+  transition: all 250ms;
+}
+
+/*:hover pseudo-class */
+/* transition: prop duration */
+a:hover {
+  color: lightcoral;
+  background-color: darkred
+}
+
